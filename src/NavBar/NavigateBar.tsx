@@ -10,7 +10,7 @@ const NavigateBar = (props: Props) => {
     <nav className={styles.NavCountain}>
       <Link to={"/"} className={styles.NavLogo}>
         <img
-          src={require("../../icons/gym-logo.png")}
+          src={require("../../public/gym-logo.png")}
           alt=""
           className={styles.logo}
         />
